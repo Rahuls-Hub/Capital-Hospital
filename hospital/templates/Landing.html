@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <title>Capital Hospital</title>
+</head>
+<style>
+  body {
+    margin: 0%;
+    padding: 0%;
+    background: url(bg4.jpg) no-repeat center center/cover;
+  }
+
+  .header {
+    padding: 23px 20px;
+    margin: 10px;
+  }
+
+  .left {
+    display: inline-block;
+
+    position: absolute;
+    left: 40px;
+    top: 20px;
+  }
+
+  .left img {
+
+    width: 100px;
+
+    padding: 2px 15px;
+  }
+
+  .left div {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(11, 17, 102);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight:bold;
+  }
+
+  .middle {
+    display: block;
+    width: 33%;
+    margin: 6px auto;
+
+
+
+  }
+
+  .right {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: inline-block;
+
+  }
+
+  .nav {
+    position: absolute;
+    display: inline-block;
+    padding: 25px 36px;
+
+  }
+
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+
+  }
+
+  .nav li a {
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    padding: 23px 21px;
+    border-radius: 23px;
+    font-size: 21px;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+
+  .nav li a:hover,
+  .nav li a.active {
+    text-decoration: underline;
+
+    color: rgb(77, 72, 72);
+    background-color: rgb(180, 172, 172)
+  }
+
+  .btn {
+
+    margin: 37px 10px;
+    background-color: rgb(75, 70, 70);
+    color: rgb(241, 235, 235);
+    padding: 4px 6px;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(180, 172, 172)
+  }
+</style>
+
+<body>
+  <header class="header">
+    <div class="left">
+      <img src="https://cdn.pixabay.com/photo/2014/04/02/10/55/health-304919_960_720.png" alt="">
+      <div>CAPITAL HOSPITAL</div>
+
+    </div>
+    <div class="middle">
+      <ul class="nav">
+        <li><a href="Landing.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about_us.html"><i class="far fa-address-card"></i> About us</a></li>
+        <li><a href="http://127.0.0.1:8000/admin_login/"><i class="fas fa-sign-in-alt"></i> Admin Login</a></li>
+        <li><a href="http://127.0.0.1:8000/login1/"><i class="fas fa-bed"></i> User Login</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <i class="fas fa-phone-alt"></i>
+      <a href="contact.html">
+        <button class="btn">
+          Contact Us
+        </button>
+      </a>
+
+
+
+    </div>
+  </header>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap w-full mb-20">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+          </h1>
+
+        </div>
+        <p class="lg:w-1/2 w-full leading-relaxed text-grey-500"></p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="hospital-beds.jpg" alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font"></h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Hospital beds</h2>
+            <p class="leading-relaxed text-base">During this time of epidemic we at capital hospital provide beds for
+              those who are suffering from covid-19 and as well as from others diseases </p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="o2 cylinder.jpg" alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font"></h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Oxygen Cylinder</h2>
+            <p class="leading-relaxed text-base">Here at capital hospital, we have suffucient amount of oxygen cylinders
+              for the people who are suffering from covid-19</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="staff.jpg" alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font"></h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4"> Experienced staff</h2>
+            <p class="leading-relaxed text-base"> we have an Experienced staff of docters with epirence of more than
+              that of 10 years.Who are experts in their respective fields</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="meditech.jpg" alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font"></h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Advanced technologies</h2>
+            <p class="leading-relaxed text-base">we consistently led game-changing developments in healthcare by
+              bringing to the people, the latest innovations in key medical specialities. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1"></h2>
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Why Choose Capital Hospital?</h1>
+
+      </div>
+      <div class="flex flex-wrap">
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">500+ Healing Hands</h2>
+          <p class="leading-relaxed text-base mb-4">Largest network of the world’s finest and brightest medical experts
+            who provide compassionate care using outstanding expertise and advanced technology.</p>
+
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">100+ Pharmacies</h2>
+          <p class="leading-relaxed text-base mb-4">Capital Pharmacy is India’s first, largest and most trusted branded
+            pharmacy network, with over 100 plus outlets covering the entire nation</p>
+
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Advance Healthcare Technologies</h2>
+          <p class="leading-relaxed text-base mb-4">Capital Hospitals has been the pioneer in bringing ground-breaking
+            healthcare technologies to India.</p>
+
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Best clinical outcome</h2>
+          <p class="leading-relaxed text-base mb-4">Leveraging its vast medical expertise & technological advantage,
+            Capital Hospitals has consistently delivered best in class clinical outcomes with success rate more than 80%
+            in surgeries</p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">capital hospital</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 pbl
+        —
+        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer"
+          target="_blank">@pbl</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>

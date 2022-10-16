@@ -1,0 +1,20 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url(bg4.jpg) no-repeat center center/cover;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.nav-link:hover{
+    color:blue !important;
+    background-color:lightblue;
+    border-radius:10px;
+}
+
+.navbar-brand:hover{
+    color:none ;
+    font-weight:bold;
+}
